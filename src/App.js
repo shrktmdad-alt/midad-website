@@ -609,8 +609,8 @@ export default function MidadApp() {
         {/* Social links */}
         <div className="anim-fadeInUp delay-900" style={{ opacity: 0, marginTop: 48, display: 'flex', gap: 16, flexWrap: 'wrap', justifyContent: 'center' }}>
           {[
-            { icon: <Instagram size={22}/>, label: "@midadd.om", color: '#E4405F', href: 'https://www.instagram.com/midadd.om' },
-            { icon: <TikTokIcon size={22}/>, label: "@midadd_oman", color: '#F5F2EB', href: 'https://www.tiktok.com/@midadd_oman' },
+            { icon: <Instagram size={22}/>, label: "@midad.om", color: '#E4405F', href: 'https://www.instagram.com/midad.om' },
+            { icon: <TikTokIcon size={22}/>, label: "@midad_oman", color: '#F5F2EB', href: 'https://www.tiktok.com/@midad_oman' },
           ].map(({ icon, label, color, href }, i) => (
             <a key={i} href={href} target="_blank" rel="noopener noreferrer" style={{
               display: 'flex', alignItems: 'center', gap: 10,
