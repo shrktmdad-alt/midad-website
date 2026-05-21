@@ -197,7 +197,7 @@ const TikTokIcon = ({ size = 20 }) => (
 );
 
 /* ─── Decorative Leaf ─── */
-const_DecorLeaf = ({ className = "", style = {} }) => (
+const DecorLeaf = ({ className = "", style = {} }) => (
   <svg viewBox="0 0 60 80" fill="none" xmlns="http://www.w3.org/2000/svg" className={className} style={style}>
     <path d="M30 75 C30 75 5 55 5 30 C5 10 20 2 30 2 C40 2 55 10 55 30 C55 55 30 75 30 75Z" fill="currentColor" opacity="0.6"/>
     <path d="M30 75 L30 5" stroke="currentColor" strokeWidth="1.5" opacity="0.8"/>
