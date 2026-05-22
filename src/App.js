@@ -609,8 +609,8 @@ export default function MidadApp() {
         {/* Social links */}
         <div className="anim-fadeInUp delay-900" style={{ opacity: 0, marginTop: 48, display: 'flex', gap: 16, flexWrap: 'wrap', justifyContent: 'center' }}>
           {[
-            { icon: <Instagram size={22}/>, label: "@midad.om", color: '#E4405F', href: 'https://www.instagram.com/midad.om' },
-            { icon: <TikTokIcon size={22}/>, label: "@midad_oman", color: '#F5F2EB', href: 'https://www.tiktok.com/@midad_oman' },
+            { icon: <Instagram size={22}/>, label: "@midadd.om", color: '#E4405F', href: 'https://www.instagram.com/midadd.om' },
+            { icon: <TikTokIcon size={22}/>, label: "@midad.oman", color: '#F5F2EB', href: 'https://www.tiktok.com/@midad.oman' },
           ].map(({ icon, label, color, href }, i) => (
             <a key={i} href={href} target="_blank" rel="noopener noreferrer" style={{
               display: 'flex', alignItems: 'center', gap: 10,
@@ -1071,19 +1071,19 @@ export default function MidadApp() {
 
         {/* Social links in footer */}
         <div style={{ display: 'flex', gap: 16, justifyContent: 'center', marginBottom: 20, flexWrap: 'wrap' }}>
-          <a href="https://www.instagram.com/midad.om" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.instagram.com/midadd.om" target="_blank" rel="noopener noreferrer"
             style={{ display: 'flex', alignItems: 'center', gap: 8, color: '#E4405F', textDecoration: 'none',
               fontSize: 14, transition: 'opacity 0.2s' }}
             onMouseOver={e => e.currentTarget.style.opacity = '0.7'}
             onMouseOut={e => e.currentTarget.style.opacity = '1'}>
-            <Instagram size={16}/> @midad.om
+            <Instagram size={16}/> @midadd.om
           </a>
-          <a href="https://www.tiktok.com/@midad_oman" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.tiktok.com/@midad.oman" target="_blank" rel="noopener noreferrer"
             style={{ display: 'flex', alignItems: 'center', gap: 8, color: '#D4C9A8', textDecoration: 'none',
               fontSize: 14, transition: 'opacity 0.2s' }}
             onMouseOver={e => e.currentTarget.style.opacity = '0.7'}
             onMouseOut={e => e.currentTarget.style.opacity = '1'}>
-            <TikTokIcon size={16}/> @midad_oman
+            <TikTokIcon size={16}/> @midad.oman
           </a>
         </div>
 
