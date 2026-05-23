@@ -284,7 +284,7 @@ export default function MidadApp() {
 
   loadOrders();
 
-}, [showDashboard]);
+}, []);
 
   const [quantity, setQuantity] = useState(5);
   const [calcArea, setCalcArea] = useState("");
