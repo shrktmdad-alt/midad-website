@@ -300,6 +300,11 @@ export default function MidadApp() {
   const [submitted, setSubmitted] = useState(false);
   const [showDashboard, setShowDashboard] = useState(false);
   const [orders, setOrders] = useState([]);
+  useEffect(() => {
+  if (showDashboard) {
+    fetchOrders().then(data => setOrders(data));
+  }
+}, [showDashboard]);
   const [removingIds, setRemovingIds] = useState(new Set());
   const [errors, setErrors] = useState({});
   const [navVisible, setNavVisible] = useState(false);
